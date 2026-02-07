@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    printf("%d",sizeof(4));
+    return 0;
+}
+
+----------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    printf("%.l",sizeof(8));
+    return 0;
+}

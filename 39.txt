@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+  printf("10\n");
+  printf("25\n");
+  printf("3.5\n");
+  printf("7.25\n");
+  printf("A\n");
+  printf("Z\n");
+  printf("3.5\n");
+  printf("5\t10\n");
+  printf("20\t30\n");
+  printf("Age:20\n");
+  printf("count:5\n");
+  printf("hello\nworld\ngood morning");
+  return 0;
+}

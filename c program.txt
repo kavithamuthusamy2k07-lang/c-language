@@ -1,0 +1,438 @@
+#include <stdio.h>
+
+int main()
+{ 
+    printf("hello world");
+    return 0;
+}
+--------------------------------
+
+#include <stdio.h>
+int main()
+{
+  printf("sivan");
+  return 0;
+}
+---------------------------------
+#include <stdio.h>
+int main()
+{
+  printf("Ravi");
+  return 0;
+}
+----------------------------
+#include <stdio.h>
+int main()
+{
+  printf("10");
+  return 0;
+}
+-----------------------------
+#include <stdio.h>
+int main()
+{
+  
+  printf("10");
+  return 0;
+}
+-----------------------------
+#include <stdio.h>
+int main()
+{
+  
+  printf("20");
+  return 0;
+}
+----------------------------------
+#include <stdio.h>
+int main()
+{
+  printf("3.5");
+  return 0;
+}
+----------------------------
+#include <stdio.h>
+int main()
+{
+  printf("7.25");
+  return 0;
+}
+-------------------------
+#include <stdio.h>
+int main()
+{
+  printf("A");
+  return 0;
+}
+-----------------------------
+#include <stdio.h>
+int main()
+{
+  printf("Z");
+  return 0;
+}
+------------------------------
+#include <stdio.h>
+int main()
+{
+  printf("5\t10");
+  return 0;
+}
+-----------------------------------
+#include <stdio.h>
+int main()
+{
+  printf("20\t30");
+  return 0;
+}
+------------------------------------
+/*#include <stdio.h>
+int main()
+{
+  printf("Age:20");
+  return 0;
+}*/
+----------------------
+#/*# <stdio.h>
+int main()
+{
+  printf("count:5");
+  return 0;
+}*/
+----------------------------
+/*#include <stdio.h>
+int main()
+{
+  printf("Hello\nWorld");
+  return 0;
+}*/
+--------------------------------
+/*#include <stdio.h>
+int main()
+{
+  int a;
+  scanf("%d",&a);
+  printf("%d",a);
+  return 0;
+}*/
+-------------------------------------------
+/*#include <stdio.h>
+int main()
+{
+  int a;
+  scanf("%d",&a);
+  printf("%d",a);
+  return 0;
+}*/
+-----------------------------------
+/*#include <stdio.h>
+int main()
+{
+  int a,b;
+  scanf("%d%d",&a,&b);
+  printf("%d\t%d",a,b);
+  scanf("%d%d",&a,&b);
+  printf("%d\t%d",a,b);
+  return 0;
+}*/
+------------------------------------------
+/*#include <stdio.h>
+int main()
+{
+  float a;
+  scanf("%f",&a);
+  printf("%f",a);
+  return 0;
+}*/
+-----------------------------------------------
+/*#include <stdio.h>
+int main()
+{
+  float b;
+  scanf("%f",&b);
+  printf("%f",b);
+  return 0;
+}*/
+------------------------------------------------------
+
+/*#include<stdio.h>
+int main()
+{
+    int a=10,b=20;
+    a=b;
+    printf("%d",a);
+    return 0;
+}*/
+---------------------------------------------------
+/*#include<stdio.h>
+int main()
+{
+    int a=10,b=5,c;
+    c=a+b;
+    printf("%d",c);
+    return 0;
+}*/
+-------------------------------------------
+/*#include<stdio.h>
+int main()
+{
+    int a=25,b=15,c;
+    c=a+b;
+    printf("%d",c);
+    return 0;
+}*/
+-------------------------------------
+/*#include<stdio.h>
+int main()
+{
+    int a=10,b=5,c;
+    c=a-b;
+    printf("%d",c);
+    return 0;
+}*/
+---------------------------------------------------
+/*include<stdio.h>
+int main()
+{
+    int a=10,b=5,c;
+    c=a-b;
+    printf("%d",c);
+    return 0;
+}*/
+----------------------------------------------
+
+
+/*
+#include<stdio.h>
+int main()
+{
+    int a=4,b=5,c;
+    c=a*b;
+    printf("%d",c);
+    return 0;
+}
+--------------------
+#include<stdio.h>
+int main()
+{
+    int a=5,b=10,c;
+    c=a*b;
+    printf("%d",c);
+    return 0;
+}*/
+-----------------------------------------------------
+/*}
+#include<stdio.h>
+int main()
+{
+    int a=20,b=5,c;
+    c=a/b;
+    printf("%d",c);
+    return 0;
+}*/
+------------------------------------------------
+/*
+#include<stdio.h>
+int main()
+{
+    int a=25,b=5,c;
+    c=a/b;
+    printf("%d",c);
+    return 0;
+}*/
+---------------------------------------------
+/*include<stdio.h>
+int main()
+{
+    int a;
+    a=10;
+    printf("%d",a);
+    return 0;
+}
+*/
+-----------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d",&a);//10
+    printf("%d",a);
+    scanf("%d",&b);//99
+    printf("%d",b);
+    return 0;
+}
+-------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    float a,b;
+    scanf("%f",&a);
+    printf("%.3f",a);
+    scanf("%f",&b);
+    printf("%.3f",b);
+    return 0;
+}
+----------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    char ch1='A',ch2='M';
+    printf("%c\n%c",ch1,ch2);
+    return 0;
+    
+}
+--------------------------------------------
+#include<stdio.h>
+int main()
+{
+    printf("%d",sizeof(4));
+    return 0;
+}
+
+------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    printf("%.l",sizeof(8));
+    return 0;
+}
+-----------------------------------------
+#include<stdio.h>
+int main()
+{
+  int a=25;
+  printf("%.1f",a);
+  return 0;
+}
+-----------------------------------------------------
+#include<stdio.h>
+int main()
+{
+   char b='A';
+  printf("%d",b);
+
+  return 0;
+}
+---------------------------------------------------
+#include<stdio.h>
+int main()
+{
+   char b='a';
+  printf("%d",b);
+
+  return 0;
+}
+
+-----------------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+   printf("Hello World");
+   printf("Hello World");
+   return 0;
+}
+
+   
+-----------------------------------------
+#include<stdio.h>
+int main()
+{
+  printf("Sivan\n");
+  printf("Ravi");
+  return 0;
+}
+
+-------------------------------------------
+#include<stdio.h>
+int main()
+{
+  printf("10\n");
+  printf("25");
+  return 0;
+}
+--------------------------------------------
+ #include<stdio.h>
+int main()
+{
+  printf("10\n");
+  printf("25\n");
+  printf("3.5\n");
+  printf("7.25\n");
+  printf("A\n");
+  printf("Z\n");
+  printf("3.5\n");
+  printf("5\t10\n");
+  printf("20\t30\n");
+  printf("Age:20\n");
+  printf("count:5\n");
+  printf("hello\nworld\ngood morning");
+  return 0;
+}
+ 
+-----------------------------------------------
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  scanf("%d%d",&a,&b);//10,5
+  printf("%d",a+b);15
+  return 0;
+}
+ 
+---------------------------------------------------------
+
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  scanf("%d%d",&a,&b);
+  printf("%d",a-b);
+  return 0;
+}
+------------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  scanf("%d%d",&a,&b);
+  printf("%d",a*b);
+  return 0;
+}
+--------------------------------------
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  scanf("%d%d",&a,&b);
+  printf("%d",a/b);
+  return 0;
+}
+-------------------------------------------
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

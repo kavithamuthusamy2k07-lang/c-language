@@ -1,0 +1,67 @@
+#include <stdio.h>
+
+int main()
+{ 
+    printf("hello world");
+    return 0;
+}
+--------------------------------
+
+#include <stdio.h>
+int main()
+{
+  printf("sivan");
+  return 0;
+}
+---------------------------------
+#include <stdio.h>
+int main()
+{
+  printf("Ravi");
+  return 0;
+}
+----------------------------
+#include <stdio.h>
+int main()
+{
+  printf("10");
+  return 0;
+}
+-----------------------------
+#include <stdio.h>
+int main()
+{
+  
+  printf("10");
+  return 0;
+}
+-----------------------------
+#include <stdio.h>
+int main()
+{
+  
+  printf("20");
+  return 0;
+}
+----------------------------------
+#include <stdio.h>
+int main()
+{
+  printf("3.5");
+  return 0;
+}
+----------------------------
+#include <stdio.h>
+int main()
+{
+  printf("7.25");
+  return 0;
+}
+-------------------------
+#include <stdio.h>
+#include <stdio.h>
+int main()
+{
+  printf("20\t30");
+  return 0;
+}
