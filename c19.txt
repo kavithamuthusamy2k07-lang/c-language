@@ -1,0 +1,18 @@
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter num:\n");
+    scanf("%d",&a);
+    if(a==120)
+    {
+        printf("%d units :bill amount is  rs. 600 ",a);
+    }
+    else
+    {
+
+        printf("%d units:bill amount is more than rs 600",a);
+    }
+    return 0;
+}

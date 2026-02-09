@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the angles;\n");
+    scanf("%d%d%d",&a,&b,&c);
+    if((a==60&&b==60&&c==60)||((a+b+c)==180))
+    {
+        printf("valid triangle");
+    }
+    else
+    {
+      printf("not an valid triangle");
+    }
+    return 0;
+}

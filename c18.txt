@@ -1,0 +1,18 @@
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter num:\n");
+    scanf("%d",&a);
+    if(a>=10&&a<=20)
+    {
+        printf("%d:num is between 10 and 20",a);
+    }
+    else
+    {
+
+        printf("%d:not between 10 and 20",a);
+    }
+    return 0;
+}

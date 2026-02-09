@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter num:\n");
+    scanf("%d\n%d",&a,&b);
+    c=(a>b)?a:b;
+
+     printf("%d:is greatest",c);
+
+    return 0;
+
+}
+

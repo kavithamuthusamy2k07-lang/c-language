@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+  int a;
+  scanf("%d",&a);
+  printf("days of the month");
+  switch (a){
+    case 3:
+      printf("30 or 31 days in an month");
+      break;
+    case 2:
+     printf("28 or 29 days in a month");
+     break;
+    default:
+      printf("error!");
+  }
+  return 0;
+}
