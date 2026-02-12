@@ -5,11 +5,11 @@ int main() {
     int paymentMode;
     int amount = 0, cashback = 0;
 
-    // Input
+    
     scanf("%d", &planType);
     scanf("%d", &paymentMode);
 
-    // Outer switch for plan
+    
     switch (planType) {
         case 1:
             amount = 199;
@@ -24,14 +24,14 @@ int main() {
             return 0;
     }
 
-    // Inner switch for payment mode
+    
     switch (paymentMode) {
-        case 11:   // UPI
-        case 12:   // Card
+        case 11:   
+        case 12:
             cashback = 20;
             break;
 
-        case 13:   // Wallet
+        case 13:   
             cashback = 0;
             break;
 
@@ -40,7 +40,7 @@ int main() {
             return 0;
     }
 
-    // Final amount
+    
     printf("Pay ₹%d", amount - cashback);
 
     return 0;

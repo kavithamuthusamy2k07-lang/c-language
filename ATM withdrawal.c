@@ -53,6 +53,9 @@ int  main(){
             break;
         }
 
+      default:
+          printf("invalid option");
+
     }
 return 0;
 }
