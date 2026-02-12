@@ -1,18 +1,20 @@
 #include<stdio.h>
-int main(){
-    int a,b,c,count;
-    scanf("%d",&a);
+int main()
+{
+    int b;
     scanf("%d",&b);
-    if(b==0){
-        printf("1");
-    }
-    for(;a!=0;b=b/10){
-
-        c=b%10;
-        count++;
-        printf("%d",count);
-        mult
+    int c;
+    scanf("%d",&c);
+    int sum=0;
+    
+    for(int i=b;i<=c;i++){
         
-   }
-   return 0;
+       if(i%b==0)
+       {
+        sum=sum+i;
+       }
+    
+    }
+    printf("%d",sum);
+return 0;
 }
