@@ -1,0 +1,17 @@
+#include<Stdio.h>
+int main()
+{
+  for(int i=1;i<=4;i++){
+    for(int j=1;j<=4-i;j++){
+        printf(" ");
+    }
+    for (int j=1;j<=i;j++){
+        printf("%c",64+j);
+    }
+    for(int j=i-1;j>0;j--){
+        printf("%c",64+j);
+    }
+    printf("\n");
+  }
+  return 0;
+}
