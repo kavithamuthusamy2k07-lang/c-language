@@ -1,26 +1,21 @@
 #include<stdio.h>
 int main() {
-    int N;
-    printf("enter N:\n");
-    scanf("%d",&N);//N=Total num of students
-    int arr[N];
+    int size;
+    scanf("%d",&size);
+    int arr[size];
     int sum1=0;
     int sum2=0;
-    printf("enter i\n");
-        for (int i=1;i<N;i++) {
-            scanf("%d",i);
-            sum1=sum1+i;//roll num of per student
-        }
-        printf("enter N");
 
-        scanf("%d",&N);
-        for (int i=0;i<N-1;i++) {
-            scanf("%d",&arr[i]);
-            sum2=sum2+arr[i];
-        }
+    for (int i=0;i<=size;i++) {
+        sum1+=i;
+    }
 
-    int missing_roll_num;
-    missing_roll_num=sum1-sum2;
-    printf("%d",missing_roll_num);
+    printf("enter the num\n");
+    for (int i=0;i<size-1;i++){
+        scanf("%d",&arr[i]);
+        sum2+=arr[i];
+    }
+    printf("Missing_roll_num:%d",sum1-sum2);
     return 0;
 }
+
