@@ -93,5 +93,6 @@ public class SmartHome {
         System.out.println("Total Cost: $" + String.format("%.2f", totalCost));
         System.out.println("Optimization Recommendation: " + recommendation);
         System.out.println("Potential Savings: $" + String.format("%.2f", potentialSavings));
+        sc.close();
     }
 }
