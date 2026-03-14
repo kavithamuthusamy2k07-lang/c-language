@@ -14,7 +14,7 @@ public class EmergencyTriageSystem {
         // Parse Blood Pressure
         String[] bpParts = bp.split("/");
         int systolic = Integer.parseInt(bpParts[0]);
-        int diastolic = Integer.parseInt(bpParts[1]);
+        
 
         String priority = "";
         int waitTime = 0;
