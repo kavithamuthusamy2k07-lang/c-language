@@ -88,5 +88,6 @@ public class CorporateTax {
         System.out.println("Amenity Bonus: $" + amenityBonus);
         System.out.println("Estimated Property Value: $" + finalValue);
         System.out.println("Market Category: " + marketCategory);
+        sc.close();
     }
 }
