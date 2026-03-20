@@ -6,9 +6,10 @@ public class EmployeeSalary{
         double sum=0;
     
         for(int i=0;i<NumEmployee;i++){
-         String EmployeeName=sc.nextLine();
+        sc.nextLine();
+        String EmployeeName=sc.nextLine();
         double baseSalary=sc.nextDouble();
-        int performRate=sc.nextInt();
+        double performRate=sc.nextInt();
         double increment=0;
           
           if (performRate==5){
@@ -35,6 +36,7 @@ public class EmployeeSalary{
         System.out.println("Performance: "+performRate);
         System.out.println("Increament: "+increment+"%");
         System.out.println("Final Salary:$ "+finalSalary);
+        System.out.println();
 
     }
     double average=sum/NumEmployee;
