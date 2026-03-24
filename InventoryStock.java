@@ -26,8 +26,11 @@ public class InventoryStock {
             status="Critical";
             restock=( minimumStock - currentStock ) + (int)( minimumStock*1.5);
             critical++;
+            
         }
-            totalReorder+=restock;
+         totalReorder+=restock;
+      
+           
            System.out.println("Product: "+productName);
            System.out.println("Current Stock: "+currentStock);
            System.out.println("Minimum Stock: "+minimumStock);
@@ -42,5 +45,7 @@ public class InventoryStock {
       System.out.println("Low Stock Items: "+low);
       System.out.println("Critical Items: "+critical);
       System.out.println("Total Reorder Quantity: "+totalReorder);
+      sc.close();
+    
     }
-    }
+  }
