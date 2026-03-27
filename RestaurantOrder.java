@@ -3,7 +3,7 @@
     public static void main(String args[]){
        Scanner sc=new Scanner(System.in);
        int N=sc.nextInt();
-       int orderTotal=0;
+   
        double grandTotal=0;
         double subTotal=0;
         double serviceCharge=0;
@@ -30,7 +30,7 @@
        System.out.println("Tax: "+tax);
        System.out.println("Service Charge: "+serviceCharge);
        System.out.println("Grfand Total:"+grandTotal);
-
+       sc.close();
 
 
     }
